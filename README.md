@@ -116,25 +116,28 @@ Even if a skincare product claims to be **pure and organic**, the truth lies in 
       <img src="images/6.1_uppload_prod.png" alt="6.1_uppload_prod.png" class="screenshot-img"/><br>
       <i>6.1_uppload_prod.png</i>
     </td>
+  </tr>
+  <tr class="screenshot-row">
     <td class="screenshot-cell">
       <img src="images/6.2_uppload_prod.png" alt="6.2_uppload_prod.png" class="screenshot-img"/><br>
       <i>6.2_uppload_prod.png</i>
     </td>
-  </tr>
-  <tr class="screenshot-row">
     <td class="screenshot-cell">
       <img src="images/10_edit_acc.png" alt="10_edit_acc.png" class="screenshot-img"/><br>
       <i>10_edit_acc.png</i>
     </td>
+  </tr>
+  <tr class="screenshot-row">
     <td class="screenshot-cell">
       <img src="images/11_user_dashboard.png" alt="11_user_dashboard.png" class="screenshot-img"/><br>
       <i>11_user_dashboard.png</i>
     </td>
+    <td class="screenshot-cell">
+      <!-- You can leave this empty if no image -->
+    </td>
   </tr>
 </table>
-
 ---
-
 ### Product Evaluation & AI Explanation
 
 <table>

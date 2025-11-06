@@ -47,28 +47,6 @@ Even if a skincare product claims to be **pure and organic**, the truth lies in 
 
 ## 📱 App Screenshots & Demos
 
-<style>
-  .screenshot-img {
-    transition: transform 0.3s ease;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
-  }
-  .screenshot-img:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-  }
-  .screenshot-row:nth-child(even) {
-    background-color: #f9f9f9;
-  }
-  .screenshot-row:nth-child(odd) {
-    background-color: #ffffff;
-  }
-  .screenshot-cell {
-    padding: 10px;
-    text-align: center;
-  }
-</style>
-
 ## 📱 App Screenshots & Demos
 
 <style>
@@ -79,7 +57,7 @@ Even if a skincare product claims to be **pure and organic**, the truth lies in 
     width: 300px;  /* Increased size */
   }
   .screenshot-img:hover {
-    transform: scale(1.15); /* Slightly bigger zoom on hover */
+    transform: scale(1.15); /* Slight zoom on hover */
     cursor: pointer;
   }
   .screenshot-row:nth-child(even) {
@@ -125,6 +103,105 @@ Even if a skincare product claims to be **pure and organic**, the truth lies in 
     </td>
   </tr>
 </table>
+
+---
+
+### Product Upload & Overview
+
+<table>
+  <tr class="screenshot-row">
+    <td class="screenshot-cell">
+      <img src="images/5_overview.png" alt="5_overview.png" class="screenshot-img"/><br>
+      <i>5_overview.png</i>
+    </td>
+    <td class="screenshot-cell">
+      <img src="images/6.1_uppload_prod.png" alt="6.1_uppload_prod.png" class="screenshot-img"/><br>
+      <i>6.1_uppload_prod.png</i>
+    </td>
+    <td class="screenshot-cell">
+      <img src="images/6.2_uppload_prod.png" alt="6.2_uppload_prod.png" class="screenshot-img"/><br>
+      <i>6.2_uppload_prod.png</i>
+    </td>
+  </tr>
+  <tr class="screenshot-row">
+    <td class="screenshot-cell">
+      <img src="images/10_edit_acc.png" alt="10_edit_acc.png" class="screenshot-img"/><br>
+      <i>10_edit_acc.png</i>
+    </td>
+    <td class="screenshot-cell">
+      <img src="images/11_user_dashboard.png" alt="11_user_dashboard.png" class="screenshot-img"/><br>
+      <i>11_user_dashboard.png</i>
+    </td>
+  </tr>
+</table>
+
+---
+
+### Product Evaluation & AI Explanation
+
+<table>
+  <tr class="screenshot-row">
+    <td class="screenshot-cell">
+      <img src="images/7.1_verdict.png" alt="7.1_verdict.png" class="screenshot-img"/><br>
+      <i>7.1_verdict.png</i>
+    </td>
+    <td class="screenshot-cell">
+      <img src="images/7.2_a_exp.png" alt="7.2_a_exp.png" class="screenshot-img"/><br>
+      <i>7.2_a_exp.png</i>
+    </td>
+  </tr>
+</table>
+
+---
+
+### Product Approval Status
+
+<table>
+  <tr class="screenshot-row">
+    <td class="screenshot-cell">
+      <img src="images/8_accepted_products.png" alt="8_accepted_products.png" class="screenshot-img"/><br>
+      <i>8_accepted_products.png</i>
+    </td>
+    <td class="screenshot-cell">
+      <img src="images/9_rejected_products.png" alt="9_rejected_products.png" class="screenshot-img"/><br>
+      <i>9_rejected_products.png</i>
+    </td>
+  </tr>
+</table>
+
+---
+
+### User Dashboard & Product Search
+
+<table>
+  <tr class="screenshot-row">
+    <td class="screenshot-cell">
+      <img src="images/12_user_dashboard_product.png" alt="12_user_dashboard_product.png" class="screenshot-img"/><br>
+      <i>12_user_dashboard_product.png</i>
+    </td>
+    <td class="screenshot-cell">
+      <img src="images/13_prod_explanation.png" alt="13_prod_explanation.png" class="screenshot-img"/><br>
+      <i>13_prod_explanation.png</i>
+    </td>
+  </tr>
+  <tr class="screenshot-row">
+    <td class="screenshot-cell">
+      <img src="images/14_user_check_product.png" alt="14_user_check_product.png" class="screenshot-img"/><br>
+      <i>14_user_check_product.png</i>
+    </td>
+    <td class="screenshot-cell">
+      <img src="images/15_filter.png" alt="15_filter.png" class="screenshot-img"/><br>
+      <i>15_filter.png</i>
+    </td>
+  </tr>
+  <tr class="screenshot-row">
+    <td class="screenshot-cell">
+      <img src="images/16_search_products.png" alt="16_search_products.png" class="screenshot-img"/><br>
+      <i>16_search_products.png</i>
+    </td>
+  </tr>
+</table>
+
 
 
 

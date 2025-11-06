@@ -45,7 +45,7 @@ Even if a skincare product claims to be **pure and organic**, the truth lies in 
 
 
 
-## 📱 App Screenshots & Demos
+
 
 ## 📱 App Screenshots & Demos
 
@@ -146,7 +146,7 @@ Even if a skincare product claims to be **pure and organic**, the truth lies in 
       <i>7.1_verdict.png</i>
     </td>
     <td class="screenshot-cell">
-      <img src="images/7.2_a_exp.png" alt="7.2_a_exp.png" class="screenshot-img"/><br>
+      <img src="images/7.2_ai_exp.png" alt="7.2_a_exp.png" class="screenshot-img"/><br>
       <i>7.2_a_exp.png</i>
     </td>
   </tr>

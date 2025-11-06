@@ -24,24 +24,35 @@ Even if a skincare product claims to be **pure and organic**, the truth lies in 
 ## 🌟 Key Features
 
 ### 🔍 Ingredient Validation for Users
-* Scan any skincare product image and get a **complete ingredient analysis**.  
-* Identify unsafe or chemically harmful ingredients instantly.  
-* Receive **personalized alternatives** for safer usage.
+* Scan any skincare product image or upload ingredient lists.  
+* Get **safety status** (Green/Red/Yellow) for each product.  
+* Check **skin-type compatibility** (Oily, Normal, Combination).  
 
 ### 🛒 Seller Product Validation
-* Sellers can register and upload products with ingredient lists.  
-* System automatically **approves safe products** and **rejects unsafe ones**.  
-* Detailed rejection reasons are provided using **Hermes-2 Pro AI explanations**.
+* Sellers can **register and upload products** with ingredient lists.  
+* System **automatically approves safe products** and **rejects unsafe ones**.  
+* Only **approved and safe products** are shown in the **user dashboard**; rejected products are hidden to maintain **user trust**.  
+* Both approved and rejected products receive **detailed AI explanations** for ingredient safety assessment.  
 
-### 🧠 AI-Powered Insights
-* **Hermes-2 Pro** evaluates ingredients contextually.  
-* **Groq AI** provides explanations for safety decisions.  
-* EasyOCR extracts ingredient text from product images.  
-* BeautifulSoup + ScraperAPI gather ingredient data from multiple sources.  
+### 🧠 AI-Powered Evaluation
+* **Hermes-2 Pro** evaluates ingredient lists contextually and decides overall product safety.  
+* **Groq AI** provides **explanations using web scraping data**, helping users and sellers understand ingredient risks.  
+* Generates **rejection reasons or suggestions for product improvement** for unsafe products.  
 
-### 💾 Database Management
-* PostgreSQL stores ingredients, products, and seller info.  
-* Structured tables ensure **fast lookups** and **secure storage**.  
+### 💾 Database & Product Management
+* **PostgreSQL/MySQL** stores ingredients, products, and seller information.  
+* Structured tables include ingredient info, skin-type tables, alternatives, seller info, and product submissions.  
+* Ensures **fast lookup**, **secure storage**, and transparent product listing.  
+
+### 🌐 Web Scraping & Knowledge Base
+* **BeautifulSoup + ScraperAPI** extract ingredient data from multiple sources.  
+* Build a comprehensive **ingredient and alternative knowledge base**.  
+
+### 🚀 User & Seller Experience
+* Users get **instant validation and compatibility checks**.  
+* Sellers get **automatic approval or rejection** with **clear AI-generated feedback**.  
+* Maintains **trustworthy and safe product listings** on the platform.
+
 
 
 
@@ -78,7 +89,7 @@ Even if a skincare product claims to be **pure and organic**, the truth lies in 
   <tr class="screenshot-row">
     <td class="screenshot-cell" colspan="2">
       <img src="images/2_user_seller.png" alt="2_user_seller.png" class="screenshot-img"/><br>
-      <i>2Choose to login as user or seller</i>
+      <i>Choose to login as user or seller</i>
     </td>
   </tr>
 </table>

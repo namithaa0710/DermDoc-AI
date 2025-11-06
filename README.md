@@ -137,7 +137,9 @@ Even if a skincare product claims to be **pure and organic**, the truth lies in 
     </td>
   </tr>
 </table>
+
 ---
+
 ### Product Evaluation & AI Explanation
 
 <table>

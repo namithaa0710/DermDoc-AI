@@ -78,7 +78,7 @@ Even if a skincare product claims to be **pure and organic**, the truth lies in 
   <tr class="screenshot-row">
     <td class="screenshot-cell" colspan="2">
       <img src="images/2_user_seller.png" alt="2_user_seller.png" class="screenshot-img"/><br>
-      <i>2_user_seller.png</i>
+      <i>2Choose to login as user or seller</i>
     </td>
   </tr>
 </table>
@@ -93,11 +93,11 @@ Even if a skincare product claims to be **pure and organic**, the truth lies in 
   <tr class="screenshot-row">
     <td class="screenshot-cell">
       <img src="images/3_seller_signup.png" alt="3_seller_signup.png" class="screenshot-img"/><br>
-      <i>3_seller_signup.png</i>
+      <i>Seller signup</i>
     </td>
     <td class="screenshot-cell">
       <img src="images/4_seller_login.png" alt="4_seller_login.png" class="screenshot-img"/><br>
-      <i>4_seller_login.png</i>
+      <i>Seller login</i>
     </td>
   </tr>
 </table>
@@ -110,27 +110,27 @@ Even if a skincare product claims to be **pure and organic**, the truth lies in 
   <tr class="screenshot-row">
     <td class="screenshot-cell">
       <img src="images/5_overview.png" alt="5_overview.png" class="screenshot-img"/><br>
-      <i>5_overview.png</i>
+      <i>Product counts overview</i>
     </td>
     <td class="screenshot-cell">
       <img src="images/6.1_uppload_prod.png" alt="6.1_uppload_prod.png" class="screenshot-img"/><br>
-      <i>6.1_uppload_prod.png</i>
+      <i>Seller upload product </i>
     </td>
   </tr>
   <tr class="screenshot-row">
     <td class="screenshot-cell">
       <img src="images/6.2_uppload_prod.png" alt="6.2_uppload_prod.png" class="screenshot-img"/><br>
-      <i>6.2_uppload_prod.png</i>
+      <i>Seller upload product</i>
     </td>
     <td class="screenshot-cell">
       <img src="images/10_edit_acc.png" alt="10_edit_acc.png" class="screenshot-img"/><br>
-      <i>10_edit_acc.png</i>
+      <i>Edit seller account</i>
     </td>
   </tr>
   <tr class="screenshot-row">
     <td class="screenshot-cell">
       <img src="images/11_user_dashboard.png" alt="11_user_dashboard.png" class="screenshot-img"/><br>
-      <i>11_user_dashboard.png</i>
+      <i>User dashboard</i>
     </td>
     <td class="screenshot-cell">
       <!-- You can leave this empty if no image -->
@@ -146,11 +146,11 @@ Even if a skincare product claims to be **pure and organic**, the truth lies in 
   <tr class="screenshot-row">
     <td class="screenshot-cell">
       <img src="images/7.1_verdict.png" alt="7.1_verdict.png" class="screenshot-img"/><br>
-      <i>7.1_verdict.png</i>
+      <i>Product verdict & ingredient classification</i>
     </td>
     <td class="screenshot-cell">
       <img src="images/7.2_ai_exp.png" alt="7.2_a_exp.png" class="screenshot-img"/><br>
-      <i>7.2_a_exp.png</i>
+      <i>AI explanation of ingredients</i>
     </td>
   </tr>
 </table>
@@ -163,11 +163,11 @@ Even if a skincare product claims to be **pure and organic**, the truth lies in 
   <tr class="screenshot-row">
     <td class="screenshot-cell">
       <img src="images/8_accepted_products.png" alt="8_accepted_products.png" class="screenshot-img"/><br>
-      <i>8_accepted_products.png</i>
+      <i>Accepted products</i>
     </td>
     <td class="screenshot-cell">
       <img src="images/9_rejected_products.png" alt="9_rejected_products.png" class="screenshot-img"/><br>
-      <i>9_rejected_products.png</i>
+      <i>Rejected products</i>
     </td>
   </tr>
 </table>
@@ -180,27 +180,27 @@ Even if a skincare product claims to be **pure and organic**, the truth lies in 
   <tr class="screenshot-row">
     <td class="screenshot-cell">
       <img src="images/12_user_dashboard_product.png" alt="12_user_dashboard_product.png" class="screenshot-img"/><br>
-      <i>12_user_dashboard_product.png</i>
+      <i>User dashboard product overview</i>
     </td>
     <td class="screenshot-cell">
       <img src="images/13_prod_explanation.png" alt="13_prod_explanation.png" class="screenshot-img"/><br>
-      <i>13_prod_explanation.png</i>
+      <i>Product verdict in user dashboard</i>
     </td>
   </tr>
   <tr class="screenshot-row">
     <td class="screenshot-cell">
       <img src="images/14_user_check_product.png" alt="14_user_check_product.png" class="screenshot-img"/><br>
-      <i>14_user_check_product.png</i>
+      <i>User check product</i>
     </td>
     <td class="screenshot-cell">
       <img src="images/15_filter.png" alt="15_filter.png" class="screenshot-img"/><br>
-      <i>15_filter.png</i>
+      <i>Filter products</i>
     </td>
   </tr>
   <tr class="screenshot-row">
     <td class="screenshot-cell">
       <img src="images/16_search_products.png" alt="16_search_products.png" class="screenshot-img"/><br>
-      <i>16_search_products.png</i>
+      <i>Search products</i>
     </td>
   </tr>
 </table>

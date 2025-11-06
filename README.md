@@ -43,17 +43,7 @@ Even if a skincare product claims to be **pure and organic**, the truth lies in 
 * PostgreSQL stores ingredients, products, and seller info.  
 * Structured tables ensure **fast lookups** and **secure storage**.  
 
----
 
-## 🏗️ Architecture Overview
-
-<p align="center">
-  <img src="images/5_overview.png" alt="DermDoc-AI Architecture" width="600"/>
-  <br>
-  <i>High-level architecture combining frontend, backend, AI, and database modules.</i>
-</p>
-
----
 
 ## 📱 App Screenshots & Demos
 

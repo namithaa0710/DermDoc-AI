@@ -87,7 +87,7 @@ Even if a skincare product claims to be **pure and organic**, the truth lies in 
 
 ---
 
-### Seller Onboarding & Login
+### 📝 Seller Onboarding & Login
 
 <table>
   <tr class="screenshot-row">
@@ -104,7 +104,7 @@ Even if a skincare product claims to be **pure and organic**, the truth lies in 
 
 ---
 
-### Product Upload & Overview
+### 📤 Product Upload & Overview
 
 <table>
   <tr class="screenshot-row">
@@ -140,7 +140,7 @@ Even if a skincare product claims to be **pure and organic**, the truth lies in 
 
 ---
 
-### Product Evaluation & AI Explanation
+### 🤖 Product Evaluation & AI Explanation
 
 <table>
   <tr class="screenshot-row">
@@ -157,7 +157,7 @@ Even if a skincare product claims to be **pure and organic**, the truth lies in 
 
 ---
 
-### Product Approval Status
+### ✅ Product Approval Status
 
 <table>
   <tr class="screenshot-row">
@@ -174,7 +174,7 @@ Even if a skincare product claims to be **pure and organic**, the truth lies in 
 
 ---
 
-### User Dashboard & Product Search
+###🔍  User Dashboard & Product Search
 
 <table>
   <tr class="screenshot-row">

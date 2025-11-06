@@ -2,19 +2,11 @@
 **Smart Skincare Ingredient Validator & Seller Approval System**
 
 <p align="center">
-  <svg width="400" height="400" viewBox="0 0 200 200">
-    <defs>
-      <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" style="stop-color: #38b2ac; stop-opacity:1" />
-        <stop offset="100%" style="stop-color: #81e6d9; stop-opacity:1" />
-      </linearGradient>
-    </defs>
-    <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" font-size="20" fill="url(#grad)">
-      DermDoc-AI
-      <animate attributeName="x" values="50%;48%;50%" dur="1s" repeatCount="indefinite"/>
-    </text>
-  </svg>
+  <img src="images/1_splash_animated.gif" alt="DermDoc-AI Logo" width="400" style="border-radius:20px; box-shadow: 0px 8px 20px rgba(0,0,0,0.3);"/>
+  <br>
+  <i style="font-size:18px; color:#555;">Discover the truth behind skincare products with DermDoc-AI</i>
 </p>
+
 
 
 

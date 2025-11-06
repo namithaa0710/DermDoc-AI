@@ -167,7 +167,7 @@ Even if a skincare product claims to be **pure and organic**, the truth lies in 
 
 ---
 
-###🔍  User Dashboard & Product Search
+### 🔍 User Dashboard & Product Search
 
 <table>
   <tr class="screenshot-row">

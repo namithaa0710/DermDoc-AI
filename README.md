@@ -120,6 +120,16 @@ Even if a skincare product claims to be **pure and organic**, the truth lies in 
       <i>6.2_uppload_prod.png</i>
     </td>
   </tr>
+    <tr class="screenshot-row">
+    <td class="screenshot-cell">
+      <img src="images/10_edit_acc.png" alt="10_edit_acc.png" width="180" class="screenshot-img"/><br>
+      <i>10_edit_acc.png</i>
+    </td>
+    <td class="screenshot-cell">
+      <img src="images/11_user_dashboard.png" alt="11_user_dashboard.png" width="180" class="screenshot-img"/><br>
+      <i>11_user_dashboard.png</i>
+    </td>
+  </tr>
 </table>
 
 ---
@@ -161,16 +171,7 @@ Even if a skincare product claims to be **pure and organic**, the truth lies in 
 ### User Dashboard & Product Search
 
 <table>
-  <tr class="screenshot-row">
-    <td class="screenshot-cell">
-      <img src="images/10_edit_acc.png" alt="10_edit_acc.png" width="180" class="screenshot-img"/><br>
-      <i>10_edit_acc.png</i>
-    </td>
-    <td class="screenshot-cell">
-      <img src="images/11_user_dashboard.png" alt="11_user_dashboard.png" width="180" class="screenshot-img"/><br>
-      <i>11_user_dashboard.png</i>
-    </td>
-  </tr>
+
   <tr class="screenshot-row">
     <td class="screenshot-cell">
       <img src="images/12_user_dashboard_product.png" alt="12_user_dashboard_product.png" width="180" class="screenshot-img"/><br>

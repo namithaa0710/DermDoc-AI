@@ -1,0 +1,228 @@
+body {
+  margin: 0;
+  font-family: 'Playfair Display', serif; /* Elegant font for the entire app */
+  background-color: #f8f8f8; /* Very light, soft background */
+}
+
+/* Ensure font is loaded for 'Playfair Display' - add this to your index.html head: */
+/* <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet"> */
+
+.splash-screen {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.logo {
+  width: 50%;
+  max-width: 250px;
+  height: auto;
+}
+
+/* --- Login Page Styles --- */
+
+.login-page-container {
+  background: linear-gradient(135deg, #fefefe 0%, #f0e0e0 100%); /* Soft, warm gradient */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  padding: 2rem;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Enhanced background watermark using your logo */
+.login-page-container::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60vw;
+  max-width: 700px;
+  height: 60vw;
+  max-height: 700px;
+  background-image: url('./assets/logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.08;
+  transform: translate(-50%, -50%) rotate(-15deg);
+  filter: blur(2px);
+  z-index: 0;
+}
+
+.login-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 450px; 
+  padding: 3rem 2rem; 
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 25px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.catchy-text {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2rem, 5vw, 3.2rem); /* Scales between 2rem and 3.2rem */
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 2.5rem;
+  letter-spacing: 1.5px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.05);
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.role-button {
+  padding: 1rem 2rem;
+  font-size: clamp(1rem, 2.5vw, 1.4rem);
+  font-weight: 700;
+  color: white;
+  background-color: #d82862;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  box-shadow: 0 4px 10px rgba(229, 115, 115, 0.3);
+}
+
+.role-button:hover {
+  background-color: #d13884;
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 8px 20px rgba(229, 115, 115, 0.5);
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .login-box {
+    padding: 2.5rem 1.5rem;
+    max-width: 420px;
+  }
+  .login-page-container::before {
+    width: 50vw;
+    height: 50vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .login-box {
+    padding: 2rem 1.2rem;
+    max-width: 90%;
+  }
+  .catchy-text {
+    margin-bottom: 2rem;
+  }
+  .login-page-container::before {
+    width: 45vw;
+    height: 45vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .catchy-text {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .role-button {
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
+  }
+  .login-page-container::before {
+    width: 35vw;
+    height: 35vw;
+  }
+}
+/* ---- Seller_log form styles ---- */
+
+.form-container input,
+.form-container textarea {
+  height: 50px;   /* reduces vertical size */
+  padding: 6px;   /* adjust inside spacing */
+  font-size: 14px; /* make text fit nicely */
+}
+
+.signup-button {
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #d82862;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%; /* makes it full-width, remove if you want smaller */
+}
+
+.signup-button:hover {
+  background-color: #b81c52;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  margin: 0.6rem 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: #fff; /* textbox background */
+  color: #000; /* text color inside box */
+  box-sizing: border-box;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.form-container input:focus {
+  border-color: #d82862;
+  box-shadow: 0 0 8px rgba(216, 40, 98, 0.3);
+}
+
+.switch-text {
+  margin-top: 1.2rem;
+  font-size: 0.95rem;
+  color: #d8d4d4;
+}
+
+.link-text {
+  color: #d82862;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.link-text:hover {
+  color: #b81c52;
+}
+
+
+

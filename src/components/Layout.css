@@ -1,0 +1,225 @@
+
+/* Overall dashboard container */
+.dashboard-container {
+  font-family: Arial, sans-serif;
+}
+
+.search-icon {
+  margin-right: 8px;
+  color: black;
+  font-size: 18px;
+}
+
+.nav-icons span {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-icons span:hover {
+  text-decoration: underline;
+  text-shadow: 0 0 5px white;
+}
+
+.account-btn {
+  background: none;
+  border: 2px solid white;
+  color: white;
+  border-radius: 50%;
+  font-size: 20px;
+  padding: 5px 8px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.account-btn:hover {
+  box-shadow: 0 0 8px white;
+}
+
+/* Dropdown */
+.account-dropdown {
+  position: absolute;
+  right: 0;
+  /* This is for laptop/desktop screens */
+  top: 55px; 
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  width: 180px;
+  z-index: 200;
+}
+
+/* Mobile styles for screens up to 600px */
+@media (max-width: 600px) {
+  .account-dropdown {
+    /* This overrides the desktop value and is for mobile screens */
+    top: 10px;
+    
+    /* You may also want to adjust other properties like width and position for mobile */
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+  }
+}
+
+.account-dropdown p {
+  margin: 5px 0;
+}
+
+.account-dropdown button {
+  width: 100%;
+  margin-top: 5px;
+  background-color: #ff69b4;
+  border: none;
+  color: white;
+  padding: 5px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.account-dropdown button:hover {
+  background-color: #ff85c1;
+}
+
+/* Main dashboard content */
+.dashboard-content {
+  padding: 20px;
+}
+
+/******************************/
+/* Taskbar styling - full width and top */
+.taskbar {
+    position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #c32675;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  box-sizing: border-box;
+}
+
+/* Logo stays left */
+.taskbar-logo {
+  height: 50px;
+}
+
+/* Search container - half width */
+.search-container {
+  display: flex;
+  align-items: center;
+  flex: 0 0 50%;
+  background-color: white;
+  border-radius: 8px;
+  padding: 5px 10px;
+  margin: 0 20px;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 16px;
+  background-color: white;
+}
+
+/* Navigation icons - right side */
+.nav-icons {
+  display: flex;
+  gap: 25px;
+  color: white;
+  font-weight: bold;
+}
+
+/* Account button stays at the far right */
+.account-container {
+  position: relative;
+}
+
+/* Mobile-only menu button */
+.mobile-menu-btn {
+  display: none;
+}
+
+/* Responsive adjustments for screens up to 600px wide */
+@media (max-width: 600px) {
+  .taskbar {
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+  }
+  
+  /* Show mobile-specific menu button */
+  .mobile-menu-btn {
+      display: block; /* Show on mobile */
+      background: none;
+      border: none;
+      color: white;
+      font-size: 20px;
+      margin-right: 10px; /* Space between icon and logo */
+      cursor: pointer;
+      padding: 0;
+  }
+  
+  /* Hide desktop account button */
+  .account-container {
+      display: none;
+  }
+
+  /* First row: Mobile Menu, Logo */
+  .taskbar-logo {
+    height: 30px; 
+    margin-right: 10px;
+  }
+
+  /* Search bar now takes full width and is below the logo */
+  .search-container {
+    flex: 1; /* Makes it fill the available space */
+    margin: 10px 5px; /* Add a small margin on both sides */
+    padding: 4px 8px;
+  }
+  
+  .search-icon {
+    font-size: 14px;
+    margin-right: 5px;
+  }
+  
+  .search-input {
+    font-size: 12px;
+  }
+
+  /* Second row: Navigation links */
+  .nav-icons {
+    flex-basis: 100%; 
+    margin-top: 10px;
+    justify-content: space-around;
+    font-size: 12px;
+    gap: 5px;
+    padding: 5px 0;
+  }
+
+  .account-dropdown {
+    /* Set position to fixed to make it relative to the viewport */
+    position: fixed; 
+    /* Align to the left and use a percentage width */
+    left: 5px;
+    right: auto;
+    transform: none; /* Remove centering transform */
+    top: 65px; 
+    width: 95%; /* Adjust width to fit the mobile screen better */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    /* Ensure content is scrollable if it exceeds viewport height */
+    max-height: calc(100vh - 75px);
+    overflow-y: auto;
+    /* Make sure it's above other elements */
+    z-index: 200;
+  }
+}

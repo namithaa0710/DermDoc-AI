@@ -1,0 +1,118 @@
+[
+  {
+    "ingredient": "Polyacrylamide",
+    "skin_type": "general",
+    "effect": "No effect mentioned",
+    "side_effect": "Possible acrylamide contamination",
+    "verdict": "Potentially Bad if contains acrylamide",
+    "scientific_sources": "https://www.safecosmetics.org/toxic-ingredients/",
+    "source_url": "https://www.safecosmetics.org/toxic-ingredients/"
+  },
+  {
+    "ingredient": "PTFE",
+    "skin_type": "general",
+    "effect": "No effect mentioned",
+    "side_effect": "Possible PFOA contamination",
+    "verdict": "Potentially Bad if contains PFOA",
+    "scientific_sources": "https://www.safecosmetics.org/toxic-ingredients/",
+    "source_url": "https://www.safecosmetics.org/toxic-ingredients/"
+  },
+  {
+    "ingredient": "Petrolatum",
+    "skin_type": "all",
+    "effect": "Seals in moisture and protects skin",
+    "side_effect": "Possible PAH contamination",
+    "verdict": "Bad if contains PAH",
+    "scientific_sources": "https://www.safecosmetics.org/toxic-ingredients/",
+    "source_url": "https://www.safecosmetics.org/toxic-ingredients/"
+  },
+  {
+    "ingredient": "UV filters",
+    "skin_type": "general",
+    "effect": "Provides protection from the sun",
+    "side_effect": "Octinoxate, oxybenzone, and homosalate are possible endocrine disruptors and may contribute to skin cancer",
+    "verdict": "Bad if contains octinoxate, oxybenzone, or homosalate",
+    "scientific_sources": "https://www.safecosmetics.org/toxic-ingredients/",
+    "source_url": "https://www.safecosmetics.org/toxic-ingredients/"
+  },
+  {
+    "ingredient": "Kojic Acid",
+    "skin_type": "oily, normal, dry, combination",
+    "effect": "Lightens dark spots and evens skin tone.",
+    "side_effect": "May cause dryness or irritation if overused.",
+    "verdict": "Good if used in recommended concentrations. Potentially Bad if causes irritation.",
+    "scientific_sources": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3580149/",
+    "usage_notes": "Use 1-2% in serums. Apply once daily.",
+    "source_url": "https://www.fda.gov/cosmetics/cosmetics-laws-regulations/prohibited-restricted-ingredients-cosmetics"
+  },
+  
+  {
+    "ingredient": "Sulfates",
+    "skin_type": "general",
+    "effect": "Acts as surfactants for lathering purposes.",
+    "side_effect": "Can irritate eyes and skin. Potentially toxic for aquatic species.",
+    "verdict": "Potentially Bad if causing irritation or environmental harm",
+    "scientific_sources": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4651417/",
+    "usage_notes": "No usage notes given",
+    "source_url": "https://skinkraft.com/blogs/articles/toxic-chemicals-in-cosmetics"
+  },
+  {
+    "ingredient": "Parabens",
+    "skin_type": "general",
+    "effect": "Used to keep skincare and makeup fresh and germ-free.",
+    "side_effect": "Causes increased production of the hormone estrogen (female sex hormone) and interferes with reproductive and brain function. Can lead to breast cancer.",
+    "verdict": "Bad if causing hormonal imbalances or breast cancer",
+    "scientific_sources": "https://www.fda.gov/cosmetics/cosmetic-ingredients/parabens-cosmetics",
+    "usage_notes": "No usage notes given",
+    "source_url": "https://skinkraft.com/blogs/articles/toxic-chemicals-in-cosmetics"
+  },
+  {
+    "ingredient": "Phthalates",
+    "skin_type": "general",
+    "effect": "Used for the spreadability of a product.",
+    "side_effect": "Are reproductive and developmental toxins.",
+    "verdict": "Bad if causing reproductive or developmental issues",
+    "scientific_sources": "https://www.cdc.gov/biomonitoring/Phthalates_FactSheet.html",
+    "usage_notes": "No usage notes given",
+    "source_url": "https://skinkraft.com/blogs/articles/toxic-chemicals-in-cosmetics"
+  },
+  {
+    "ingredient": "Synthetic colors",
+    "skin_type": "general",
+    "effect": "Derived from petroleum or coal tar.",
+    "side_effect": "Can cause skin irritations, cancers, acne breakouts and ADHD (attention deficit hyperactivity disorder).",
+    "verdict": "Bad if causing skin irritations, cancers, or ADHD",
+    "scientific_sources": "https://www.fda.gov/sites/production/files/2016-09/documents/toluene.pdf",
+    "usage_notes": "No usage notes given",
+    "source_url": "https://skinkraft.com/blogs/articles/toxic-chemicals-in-cosmetics"
+  },
+  {
+    "ingredient": "Fragrances",
+    "skin_type": "general",
+    "effect": "Found in skincare products like perfumes, moisturizers, shampoos, cleansers and conditioners.",
+    "side_effect": "Associated with respiratory disorders, skin allergies, dermatitis, and side effects in the reproductive system. Potential carcinogens (cancer-causing agents), irritants and endocrine disruptors.",
+    "verdict": "Bad if causing respiratory disorders, skin allergies, dermatitis, or reproductive issues",
+    "scientific_sources": "https://www.fda.gov/cosmetics/cosmetic-ingredients/fragrances",
+    "usage_notes": "No usage notes given",
+    "source_url": "https://skinkraft.com/blogs/articles/toxic-chemicals-in-cosmetics"
+  },
+  {
+    "ingredient": "Triclosan",
+    "skin_type": "general",
+    "effect": "A common chemical found in tubes of toothpaste, antibacterial soaps and deodorants.",
+    "side_effect": "Endocrine disruptor and a skin irritant. Can lead to gut inflammation and tumor growth in mammals.",
+    "verdict": "Bad if causing endocrine disruption or tumor growth",
+    "scientific_sources": "https://www.fda.gov/cosmetics/product-safety-reference-materials/triclosan-topical-antimicrobial-drug",
+    "usage_notes": "No usage notes given",
+    "source_url": "https://skinkraft.com/blogs/articles/toxic-chemicals-in-cosmetics"
+  },
+  {
+    "ingredient": "Toluene",
+    "skin_type": "general",
+    "effect": "Used in synthetic colors.",
+    "side_effect": "Can cause skin irritations, cancers, acne breakouts and ADHD (attention deficit hyperactivity disorder). Potentially toxic for aquatic species.",
+    "verdict": "Bad if causing skin irritations, cancers, or ADHD",
+    "scientific_sources": "https://www.fda.gov/sites/production/files/2016-09/documents/toluene.pdf",
+    "usage_notes": "No usage notes given",
+    "source_url": "https://skinkraft.com/blogs/articles/toxic-chemicals-in-cosmetics"
+  }]

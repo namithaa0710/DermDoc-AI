@@ -60,28 +60,7 @@ Even if a skincare product claims to be **pure and organic**, the truth lies in 
 
 ## 📱 App Screenshots & Demos
 
-<style>
-  .screenshot-img {
-    transition: transform 0.3s ease;
-    border-radius: 10px;
-    box-shadow: 0px 4px 12px rgba(0,0,0,0.25);
-    width: 300px;  /* Increased size */
-  }
-  .screenshot-img:hover {
-    transform: scale(1.15); /* Slight zoom on hover */
-    cursor: pointer;
-  }
-  .screenshot-row:nth-child(even) {
-    background-color: #f9f9f9;
-  }
-  .screenshot-row:nth-child(odd) {
-    background-color: #ffffff;
-  }
-  .screenshot-cell {
-    padding: 15px;
-    text-align: center;
-  }
-</style>
+
 
 ### Initial App Flow
 

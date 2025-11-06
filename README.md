@@ -2,10 +2,11 @@
 **Smart Skincare Ingredient Validator & Seller Approval System**
 
 <p align="center">
-  <img src="images/1_splash_animated.gif" alt="DermDoc-AI Logo" width="400" style="border-radius:20px; box-shadow: 0px 8px 20px rgba(0,0,0,0.3);"/>
+  <img src="images/1_splash.png" alt="DermDoc-AI Logo" width="400" style="border-radius:20px; box-shadow: 0px 8px 20px rgba(0,0,0,0.3); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/>
   <br>
   <i style="font-size:18px; color:#555;">Discover the truth behind skincare products with DermDoc-AI</i>
 </p>
+
 
 
 

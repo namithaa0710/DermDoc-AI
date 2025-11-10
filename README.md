@@ -43,7 +43,7 @@ Even if a skincare product claims to be **pure and organic**, the truth lies in 
 * Generates **rejection reasons or suggestions for product improvement** for unsafe products.  
 
 ### 💾 Database & Product Management
-* **PostgreSQL/MySQL** stores ingredients, products, and seller information.  
+* **PostgreSQL** stores ingredients, products, and seller information.  
 * Structured tables include ingredient info, skin-type tables, alternatives, seller info, and product submissions.  
 * Ensures **fast lookup**, **secure storage**, and transparent product listing.  
 

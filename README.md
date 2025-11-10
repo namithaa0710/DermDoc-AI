@@ -172,10 +172,26 @@ Even if a skincare product claims to be **pure and organic**, the truth lies in 
 <table>
   <tr class="screenshot-row">
     <td class="screenshot-cell">
-      <img src="images/13_prod_explanation.png" alt="13_prod_explanation.png" class="screenshot-img"/><br>
-      <i>Product verdict in user dashboard</i>
+      <img src="images/11_user_dashboard.png" alt="11_user_dashboard.png" class="screenshot-img"/><br>
+      <i>User dashboard</i>
+    </td>
+    <td class="screenshot-cell">
+      <img src="images/12_user_dashboard_product.png" alt="12_user_dashboard_product.png" class="screenshot-img"/><br>
+      <i>User dashboard product view</i>
     </td>
   </tr>
+
+  <tr class="screenshot-row">
+    <td class="screenshot-cell">
+      <img src="images/13_prod_explanation.png" alt="13_prod_explanation.png" class="screenshot-img"/><br>
+      <i>Product verdict</i>
+    </td>
+    <td class="screenshot-cell">
+      <img src="images/user_ai_exp.png" alt="user_ai_exp.png" class="screenshot-img"/><br>
+      <i>AI explanation</i>
+    </td>
+  </tr>
+
   <tr class="screenshot-row">
     <td class="screenshot-cell">
       <img src="images/14_user_check_product.png" alt="14_user_check_product.png" class="screenshot-img"/><br>
@@ -186,6 +202,7 @@ Even if a skincare product claims to be **pure and organic**, the truth lies in 
       <i>Filter products</i>
     </td>
   </tr>
+
   <tr class="screenshot-row">
     <td class="screenshot-cell">
       <img src="images/16_search_products.png" alt="16_search_products.png" class="screenshot-img"/><br>
@@ -193,6 +210,7 @@ Even if a skincare product claims to be **pure and organic**, the truth lies in 
     </td>
   </tr>
 </table>
+
 
 
 

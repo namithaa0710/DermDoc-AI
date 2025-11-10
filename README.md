@@ -171,12 +171,7 @@ Even if a skincare product claims to be **pure and organic**, the truth lies in 
 
 <table>
   <tr class="screenshot-row">
-      <tr class="screenshot-row">
-    <td class="screenshot-cell">
-      <img src="images/11_user_dashboard.png" alt="11_user_dashboard.png" class="screenshot-img"/><br>
-      <i>User dashboard</i>
-    </td>
-    <td class="screenshot-cell">
+  
     <td class="screenshot-cell">
       <img src="images/12_user_dashboard_product.png" alt="12_user_dashboard_product.png" class="screenshot-img"/><br>
       <i>User dashboard product overview</i>

@@ -236,6 +236,9 @@ Even if a skincare product claims to be **pure and organic**, the truth lies in 
 </p>
 
 ---
+## License 📜
+This project is **open-source** under the [MIT License](LICENSE).
+
 
 ## 🚀 Setup and Installation
 
